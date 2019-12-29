@@ -1,6 +1,6 @@
 const extractQuestionsFromQuestionSelectors = (questionSelectors) => {
     const questions = [];
-    questionSelectors.each(function(index, question) {
+    questionSelectors.each((index, question) => {
         questions.push(question.children[0].data);
     })
     return questions;
