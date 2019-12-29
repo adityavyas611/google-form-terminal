@@ -1,0 +1,13 @@
+{
+  "name": "google-form-terminal",
+  "version": "1.0.0",
+  "description": "Get Google forms using terminal",
+  "main": "index.js",
+  "author": "Aditya Vyas",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "q": "^1.5.1",
+    "request": "^2.88.0"
+  }
+}
