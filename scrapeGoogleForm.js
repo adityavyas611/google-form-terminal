@@ -20,4 +20,4 @@ const scrapeGoogleForm = () => {
   );
 };
 
-export default scrapeGoogleForm;
+module.exports = scrapeGoogleForm;

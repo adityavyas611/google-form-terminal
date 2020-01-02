@@ -1,1 +1,3 @@
-export { default as scrapeGoogleForm } from "./scrapeGoogleForm";
+const scrapeGoogleForm = require("./scrapeGoogleForm");
+
+module.exports = scrapeGoogleForm;
