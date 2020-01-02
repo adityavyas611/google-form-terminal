@@ -1,6 +1,6 @@
 {
   "name": "google-form-terminal",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Get Google forms using terminal",
   "main": "index.js",
   "author": "Aditya Vyas",
