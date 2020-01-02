@@ -4,9 +4,11 @@
   "description": "Get Google forms using terminal",
   "main": "index.js",
   "author": "Aditya Vyas",
+  "git repository": "https://github.com/adityavyas611/google-form-terminal",
   "license": "MIT",
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
     "request": "^2.88.0"
-  }
+  },
+  "keywords": ["google","forms","cli","terminal"]
 }

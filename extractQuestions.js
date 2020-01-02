@@ -1,7 +1,7 @@
 const cheerio = require('cheerio');
 const extractQuestionsFromQuestionSelectors = require('./extractQuestionsFromQuestionSelectors');
 
-const extractQuestionsFromBody = (htmlString) => {
+const extractQuestions = (htmlString) => {
     let html = cheerio.load(htmlString);
     let questionSelectors = html(".freebirdFormviewerViewItemsItemItemTitle");
     if(!questionSelectors.length)
@@ -14,4 +14,4 @@ const extractQuestionsFromBody = (htmlString) => {
     }
 }
 
-module.exports = extractQuestionsFromBody;
+module.exports = extractQuestions;
